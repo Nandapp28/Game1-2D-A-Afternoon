@@ -10,9 +10,9 @@ public class Player : MonoBehaviour
     float hAxis;
     Vector2 dir;
 
-    Rigidbody rb;
+    Rigidbody2D rb;
 
-    bool isAllowed = false;
+    public bool isAllowed = false;
 
     public GameObject PowerUP;
     PU puScript;
@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         //Get Rigidbody in Inspector
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
         puScript = PowerUP.GetComponent<PU>();
     }
 
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider player)
+    private void OnTriggerEnter2D(Collider2D player)
     {
         if (player.tag == "Ground")
         {
@@ -60,7 +60,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider player)
+    private void OnTriggerExit2D(Collider2D player)
     {
         if(player.tag == "Ground")
         {

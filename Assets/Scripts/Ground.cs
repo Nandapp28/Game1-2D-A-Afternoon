@@ -5,12 +5,12 @@ using UnityEngine;
 public class Ground : MonoBehaviour
 {
     [SerializeField] GameObject Player;
-    Collider col;
+    Collider2D col;
 
     // Start is called before the first frame update
     void Start()
     {
-        col = GetComponent<Collider>();
+        col = GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
