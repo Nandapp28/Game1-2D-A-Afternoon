@@ -12,10 +12,16 @@ public class Player : MonoBehaviour
 
     Rigidbody rb;
 
+<<<<<<< Updated upstream
     bool isAllowed = false;
+=======
+    public bool isAllowed = true;
+>>>>>>> Stashed changes
 
     public GameObject PowerUP;
     PU puScript;
+
+    Animator animator;
 
 
     // Start is called before the first frame update
@@ -24,6 +30,7 @@ public class Player : MonoBehaviour
         //Get Rigidbody in Inspector
         rb = GetComponent<Rigidbody>();
         puScript = PowerUP.GetComponent<PU>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,6 +38,8 @@ public class Player : MonoBehaviour
     {
         MovingPlayer();
         JumpingPlayer();
+        Facing();
+        Anims();
     }
 
     void MovingPlayer()
@@ -48,7 +57,29 @@ public class Player : MonoBehaviour
         }
     }
 
+<<<<<<< Updated upstream
     private void OnTriggerEnter(Collider player)
+=======
+    void Facing()
+    {
+        if (hAxis > 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (hAxis < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
+    void Anims()
+    {
+        animator.SetFloat("Moving", Mathf.Abs(hAxis));
+        animator.SetBool("isGround", isAllowed);
+    }
+
+    private void OnTriggerEnter2D(Collider2D player)
+>>>>>>> Stashed changes
     {
         if (player.tag == "Ground")
         {

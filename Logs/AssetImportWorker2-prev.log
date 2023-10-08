@@ -1,0 +1,278 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16192 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51208
+Successfully changed project path to: C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon
+C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9340] Host "[IP] 192.168.30.22 [Port] 0 [Flags] 2 [Guid] 459844487 [EditorId] 459844487 [Version] 1048832 [Id] WindowsEditor(7,MentorGame-G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9340] Host "[IP] 192.168.30.22 [Port] 0 [Flags] 2 [Guid] 459844487 [EditorId] 459844487 [Version] 1048832 [Id] WindowsEditor(7,MentorGame-G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 37.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029536 seconds.
+- Loaded All Assemblies, in  1.998 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.648 seconds
+Domain Reload Profiling: 3642ms
+	BeginReloadAssembly (535ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (173ms)
+	RebuildNativeTypeToScriptingClass (97ms)
+	initialDomainReloadingComplete (314ms)
+	LoadAllAssembliesAndSetupDomain (873ms)
+		LoadAssemblies (510ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (846ms)
+			TypeCache.Refresh (836ms)
+				TypeCache.ScanAssembly (505ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (43ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (948ms)
+			ProcessInitializeOnLoadMethodAttributes (217ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.862 seconds
+Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.808 seconds
+Domain Reload Profiling: 3662ms
+	BeginReloadAssembly (453ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (1147ms)
+		LoadAssemblies (794ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (633ms)
+			TypeCache.Refresh (592ms)
+				TypeCache.ScanAssembly (569ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1810ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (1019ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (51ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 22.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3540.
+Memory consumption went from 116.9 MB to 116.9 MB.
+Total: 17.926500 ms (FindLiveObjects: 5.166600 ms CreateObjectMapping: 0.604600 ms MarkObjects: 11.744100 ms  DeleteObjects: 0.406200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14678.083780 seconds.
+  path: Assets/2D Platformer
+  artifactKey: Guid(a10f080e38f2f974a98fbf0acba07909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer using Guid(a10f080e38f2f974a98fbf0acba07909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fad48e4b352a29d3ca0982fb480241e') in 0.003144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.077145 seconds.
+  path: Assets/2D Platformer/Scenes
+  artifactKey: Guid(acc63311e110e374a872e5eadeb208df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Scenes using Guid(acc63311e110e374a872e5eadeb208df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd382a1cd5112842373e36ba1d826d876') in 0.001000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.784033 seconds.
+  path: Assets/2D Platformer/Scenes/Demo.unity
+  artifactKey: Guid(d87f4203f2c419645ae9ea97bae08a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Scenes/Demo.unity using Guid(d87f4203f2c419645ae9ea97bae08a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5127725f5b2b42af4e6a3167161799db') in 0.000929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.349816 seconds.
+  path: Assets/Scenes/Gameplay.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gameplay.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696b4c3c38c0a581fca2b9db488cf827') in 0.000933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.202246 seconds.
+  path: Assets/2D Platformer/Assets
+  artifactKey: Guid(06e8b4b3ca6e7cb40a14e0a1f22a383c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets using Guid(06e8b4b3ca6e7cb40a14e0a1f22a383c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704327894c0dbe4676887c196d1a3134') in 0.000823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063291 seconds.
+  path: Assets/2D Platformer/Assets/ground(1).png
+  artifactKey: Guid(5b886b82f922e0e48a17424c82f1157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/ground(1).png using Guid(5b886b82f922e0e48a17424c82f1157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787f4f2a009440fff5714206698a1393') in 0.522519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/2D Platformer/Assets/platform(1).png
+  artifactKey: Guid(4a1d0bf48ee6e58458cfeaa4a5b677c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/platform(1).png using Guid(4a1d0bf48ee6e58458cfeaa4a5b677c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8236cb37921cab8272bf91013a812fa2') in 0.104184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/2D Platformer/Assets/spikes.png
+  artifactKey: Guid(2619d8d2089663a478ac3035deedf2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/spikes.png using Guid(2619d8d2089663a478ac3035deedf2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee45783ce16f29fc72885e8a2f37315f') in 0.113219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2D Platformer/Assets/ground(5).png
+  artifactKey: Guid(ace6930c03f36a8498fb0c96db29dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/ground(5).png using Guid(ace6930c03f36a8498fb0c96db29dadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53565e4a29acadd4b7431281e93135c') in 0.080541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.920435 seconds.
+  path: Assets/2D Platformer/Assets/player
+  artifactKey: Guid(46932f4eb322c444ebbd2a01b3cef525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/player using Guid(46932f4eb322c444ebbd2a01b3cef525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34bf5717395374870387c27f4373c06') in 0.000791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.761171 seconds.
+  path: Assets/2D Platformer/Assets/player/run/run(2).png
+  artifactKey: Guid(95984d98146a0b4459d00811ef9a5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/player/run/run(2).png using Guid(95984d98146a0b4459d00811ef9a5172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb60182b1c150e5dfd26e2c3f1cb2f3') in 0.055458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.932620 seconds.
+  path: Assets/2D Platformer/Assets/player/idle/idle(2).png
+  artifactKey: Guid(4d5b01fd95943f74f8e4d5fc5fc1cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer/Assets/player/idle/idle(2).png using Guid(4d5b01fd95943f74f8e4d5fc5fc1cc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da88e0de79b4f5c096ecd39baadc575a') in 0.126509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

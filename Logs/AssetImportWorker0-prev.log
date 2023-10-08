@@ -1,0 +1,1314 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16192 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51208
+Successfully changed project path to: C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon
+C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24728] Host "[IP] 192.168.30.22 [Port] 0 [Flags] 2 [Guid] 1245521770 [EditorId] 1245521770 [Version] 1048832 [Id] WindowsEditor(7,MentorGame-G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24728] Host "[IP] 192.168.30.22 [Port] 0 [Flags] 2 [Guid] 1245521770 [EditorId] 1245521770 [Version] 1048832 [Id] WindowsEditor(7,MentorGame-G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 26.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/TUF GAMING/Documents/GitHub/Game1-2D-A-Afternoon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017221 seconds.
+- Loaded All Assemblies, in  1.054 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1774ms
+	BeginReloadAssembly (375ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (156ms)
+	LoadAllAssembliesAndSetupDomain (403ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (373ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (340ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (725ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (22ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.360 seconds
+Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.942 seconds
+Domain Reload Profiling: 4295ms
+	BeginReloadAssembly (513ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (119ms)
+	LoadAllAssembliesAndSetupDomain (1595ms)
+		LoadAssemblies (938ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (858ms)
+			TypeCache.Refresh (811ms)
+				TypeCache.ScanAssembly (786ms)
+			ScanForSourceGeneratedMonoScriptInfo (37ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1943ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (1260ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 14.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3070 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3534.
+Memory consumption went from 116.4 MB to 116.3 MB.
+Total: 8.961600 ms (FindLiveObjects: 0.543200 ms CreateObjectMapping: 0.442500 ms MarkObjects: 7.706700 ms  DeleteObjects: 0.267100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.906 seconds
+Refreshing native plugins compatible for Editor in 9.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.409 seconds
+Domain Reload Profiling: 4303ms
+	BeginReloadAssembly (412ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (103ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (1217ms)
+		LoadAssemblies (753ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (665ms)
+			TypeCache.Refresh (656ms)
+				TypeCache.ScanAssembly (616ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2412ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (1019ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 6.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3537.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 6.648800 ms (FindLiveObjects: 0.997100 ms CreateObjectMapping: 0.676800 ms MarkObjects: 4.901400 ms  DeleteObjects: 0.071300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.945 seconds
+Refreshing native plugins compatible for Editor in 20.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.580 seconds
+Domain Reload Profiling: 4522ms
+	BeginReloadAssembly (427ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (1276ms)
+		LoadAssemblies (761ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (724ms)
+			TypeCache.Refresh (713ms)
+				TypeCache.ScanAssembly (684ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (2587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1314ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (1075ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 20.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3540.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 5.984500 ms (FindLiveObjects: 0.386500 ms CreateObjectMapping: 0.356500 ms MarkObjects: 5.156600 ms  DeleteObjects: 0.082900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14216.802764 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(4c23e1dea65f3aa4fa4a78c1d9a021e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(4c23e1dea65f3aa4fa4a78c1d9a021e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ae65bc317442b76fa9faa7c97b037b') in 0.006517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.887 seconds
+Refreshing native plugins compatible for Editor in 7.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.239 seconds
+Domain Reload Profiling: 4117ms
+	BeginReloadAssembly (485ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1155ms)
+		LoadAssemblies (855ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (611ms)
+			TypeCache.Refresh (596ms)
+				TypeCache.ScanAssembly (571ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1236ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (1017ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 28.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3543.
+Memory consumption went from 115.2 MB to 115.2 MB.
+Total: 7.388100 ms (FindLiveObjects: 0.476900 ms CreateObjectMapping: 0.584900 ms MarkObjects: 6.177400 ms  DeleteObjects: 0.147000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.620 seconds
+Refreshing native plugins compatible for Editor in 9.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.022 seconds
+Domain Reload Profiling: 4634ms
+	BeginReloadAssembly (324ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1095ms)
+		LoadAssemblies (654ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (603ms)
+			TypeCache.Refresh (592ms)
+				TypeCache.ScanAssembly (561ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3028ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1496ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (176ms)
+			ProcessInitializeOnLoadAttributes (1210ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 8.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3546.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 7.941900 ms (FindLiveObjects: 0.962400 ms CreateObjectMapping: 1.060200 ms MarkObjects: 5.841400 ms  DeleteObjects: 0.076500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.492653 seconds.
+  path: Assets/Scripts/Ground.cs
+  artifactKey: Guid(8f67c3f858932004e913c819e90895e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ground.cs using Guid(8f67c3f858932004e913c819e90895e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8a50ea4ff627c7514ef87f43607f45') in 0.003406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.924521 seconds.
+  path: Assets/Scripts/Ground.cs
+  artifactKey: Guid(8f67c3f858932004e913c819e90895e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ground.cs using Guid(8f67c3f858932004e913c819e90895e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a80dfab1a59d8ac728dd67a6bce25d') in 0.001107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.776 seconds
+Refreshing native plugins compatible for Editor in 9.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.447 seconds
+Domain Reload Profiling: 4214ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (1186ms)
+		LoadAssemblies (724ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (646ms)
+			TypeCache.Refresh (629ms)
+				TypeCache.ScanAssembly (606ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (2447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (953ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 9.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3062 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3549.
+Memory consumption went from 115.2 MB to 115.2 MB.
+Total: 5.483800 ms (FindLiveObjects: 0.758000 ms CreateObjectMapping: 0.220300 ms MarkObjects: 4.435800 ms  DeleteObjects: 0.068100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.530 seconds
+Refreshing native plugins compatible for Editor in 11.38 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.084 seconds
+Domain Reload Profiling: 4607ms
+	BeginReloadAssembly (306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1056ms)
+		LoadAssemblies (634ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (579ms)
+			TypeCache.Refresh (571ms)
+				TypeCache.ScanAssembly (549ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (3086ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (1401ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 11.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3552.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 5.275000 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.355300 ms MarkObjects: 4.445300 ms  DeleteObjects: 0.067500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.814 seconds
+Refreshing native plugins compatible for Editor in 11.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.880 seconds
+Domain Reload Profiling: 4685ms
+	BeginReloadAssembly (356ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (170ms)
+	LoadAllAssembliesAndSetupDomain (1127ms)
+		LoadAssemblies (662ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (651ms)
+			TypeCache.Refresh (637ms)
+				TypeCache.ScanAssembly (613ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2881ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (196ms)
+			ProcessInitializeOnLoadAttributes (1158ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 22.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3555.
+Memory consumption went from 115.5 MB to 115.4 MB.
+Total: 8.943000 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.802400 ms MarkObjects: 7.575100 ms  DeleteObjects: 0.143800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TUF GAMING\Documents\GitHub\Game1-2D-A-Afternoon\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.678 seconds
+Refreshing native plugins compatible for Editor in 13.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.032 seconds
+Domain Reload Profiling: 4704ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1125ms)
+		LoadAssemblies (625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (681ms)
+			TypeCache.Refresh (669ms)
+				TypeCache.ScanAssembly (645ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (1279ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 9.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3558.
+Memory consumption went from 115.5 MB to 115.5 MB.
+Total: 7.285900 ms (FindLiveObjects: 0.544800 ms CreateObjectMapping: 0.687400 ms MarkObjects: 5.958000 ms  DeleteObjects: 0.093500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 337.651688 seconds.
+  path: Assets/Cainos
+  artifactKey: Guid(33a01e42851e7b346b31a05ded519448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos using Guid(33a01e42851e7b346b31a05ded519448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff94683019cd08bbf9fa0218321d8099') in 0.030367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.103351 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props
+  artifactKey: Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props using Guid(1f08d781702466b438d35aa7938d8030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a9f88fb0822ccc34650808506651bf') in 0.001289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.550582 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture
+  artifactKey: Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture using Guid(4fb7661537e28884697bca33184bdaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a0ad688b2e5e809388473c6ef8aa23') in 0.001506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.394069 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Script
+  artifactKey: Guid(63f64f5e91971ce46a21bff537c5ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Script using Guid(63f64f5e91971ce46a21bff537c5ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faf9fbe1c77880141b6d930a9385e47') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.702233 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab
+  artifactKey: Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab using Guid(8d3b16bf124f65b49b22817d94a88022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2128627b34e7e650960ee87b26b684') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065640 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil 01.prefab
+  artifactKey: Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Anvil 01.prefab using Guid(c2f614a8e0864dc428810ace2ccc1584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35957f1860a4235f3e386b6481cd17cd') in 0.866448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab
+  artifactKey: Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bucket 01.prefab using Guid(75e84fbdb66ab5647a06b786c6662307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac28ff347a420de90a459562f428d0a') in 0.078675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 02.prefab
+  artifactKey: Guid(f39426a001c71d84999be2ee63c7d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 02.prefab using Guid(f39426a001c71d84999be2ee63c7d322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df691e3315a22b881b8b66d2e0317aeb') in 0.044216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 01.prefab
+  artifactKey: Guid(459b65f26ee3d2d4c830fbffaa476ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 01.prefab using Guid(459b65f26ee3d2d4c830fbffaa476ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460a861f9dcb7b76b95f965aacacea49') in 0.064437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 03.prefab
+  artifactKey: Guid(d6770ea3eabbc694a9bad4112d5af65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 03.prefab using Guid(d6770ea3eabbc694a9bad4112d5af65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacc8858ea27929641516d33655f2b65') in 0.062826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X1.prefab
+  artifactKey: Guid(35ff5f2cc18840a4ca4ecf97ed2779c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 L X1.prefab using Guid(35ff5f2cc18840a4ca4ecf97ed2779c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ded5086761543526e255e4971f3e0d') in 0.057330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 03.prefab
+  artifactKey: Guid(4d0ea86cf0ef88c4fa3ae46ee54d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 03.prefab using Guid(4d0ea86cf0ef88c4fa3ae46ee54d15d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb710d4a9386df4a1fc9b745b24fb95') in 0.037891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 02.prefab
+  artifactKey: Guid(e3ef72d9f2a941b479a3bda87147db32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 02.prefab using Guid(e3ef72d9f2a941b479a3bda87147db32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84477df638dbb47dcf5dea780d7db942') in 0.076806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab
+  artifactKey: Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pumpkin A.prefab using Guid(4c7668f32ddf4c843bc8d57bf6b43000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3046fb2b7a798b35bdf0b6abb0d4bd3a') in 0.046598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X1.prefab
+  artifactKey: Guid(b66942e8458865e4990a5fc39874e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X1.prefab using Guid(b66942e8458865e4990a5fc39874e9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2e2d49e310d9871c7482473a76daab') in 0.050751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Bale.prefab
+  artifactKey: Guid(6a9ccf5128b7b1349a5a89b136f037a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Bale.prefab using Guid(6a9ccf5128b7b1349a5a89b136f037a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2770bf484d5ad48d73d7ab123fef8a4') in 0.067617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Small.prefab
+  artifactKey: Guid(ab9278aa8a6f856468c48e893720a765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Crate Small.prefab using Guid(ab9278aa8a6f856468c48e893720a765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a806ba1d74ad5187e0a02c35886a0256') in 0.055068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab
+  artifactKey: Guid(8cc938fe21b426a4daedf2f6c7e34c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence A.prefab using Guid(8cc938fe21b426a4daedf2f6c7e34c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d3c81d120f394c85d9465495f3b1b3') in 0.049490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab
+  artifactKey: Guid(33765db783031c64eb242d22002b9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Basket.prefab using Guid(33765db783031c64eb242d22002b9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a32a483235f36910ac93436710b1252') in 0.143030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab
+  artifactKey: Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Billboard.prefab using Guid(6ecf5bcec20adfa429a788f660f29ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51394c61d9b8eec93632dbe694b7ddbf') in 0.087925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab
+  artifactKey: Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Campfire 01.prefab using Guid(e8bae36b607017047ace9061609051d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cd83261c7c73072342fd3db4995c49') in 0.294486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 07.prefab
+  artifactKey: Guid(91aebb278b095f843a6d4213d7df47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 07.prefab using Guid(91aebb278b095f843a6d4213d7df47fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d645cefebf902585e15c660646abf11') in 0.248708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 02.prefab
+  artifactKey: Guid(b51901e6748833e4695e0c1db509dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 02.prefab using Guid(b51901e6748833e4695e0c1db509dcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8104002e048a60e29c514de4e1e26a68') in 0.111754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001759 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 03.prefab
+  artifactKey: Guid(4da9b9761848a1848868ed8a0c18f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 03.prefab using Guid(4da9b9761848a1848868ed8a0c18f051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663f19b0cdb415b5ea059a4c232003f5') in 0.056983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab
+  artifactKey: Guid(c4728654af6c1b84fb5102e3f29ffb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spike.prefab using Guid(c4728654af6c1b84fb5102e3f29ffb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebab49e37ece45ea90c8514fc25145e6') in 0.076826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Weapon Rack.prefab
+  artifactKey: Guid(db3033d1b9a69204ebc8a3bc98f3c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Weapon Rack.prefab using Guid(db3033d1b9a69204ebc8a3bc98f3c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c8938946fbc975d986654b2c6baa8a') in 0.110956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 02.prefab
+  artifactKey: Guid(c5f8f079905bce04f945cd8ff4ba545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 02.prefab using Guid(c5f8f079905bce04f945cd8ff4ba545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d81ba9f37bb92087544643198df190') in 0.076803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab
+  artifactKey: Guid(78c0f168d9274124eaeedea139301a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 01.prefab using Guid(78c0f168d9274124eaeedea139301a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edf7ed38807362d840f4625285d5db2') in 0.048033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 01.prefab
+  artifactKey: Guid(050d9e84d8de61d41ac16ebab39e64a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 01.prefab using Guid(050d9e84d8de61d41ac16ebab39e64a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b3613b252645f068cc91bfccd8051') in 0.073564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab
+  artifactKey: Guid(4d8ad400922c4a343911784077c26568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Cup.prefab using Guid(4d8ad400922c4a343911784077c26568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e19e2aabeff0bfe43689cd2a7b382b') in 0.080044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001387 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 01.prefab
+  artifactKey: Guid(bbde5b0f2fde63f47aab9703a1e8e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Road Sign 01.prefab using Guid(bbde5b0f2fde63f47aab9703a1e8e784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b889581596ba74f091e62b163be0f75e') in 0.066905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002581 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab
+  artifactKey: Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Hay Fork.prefab using Guid(3f221dff797bcc04f93920ab6fb086c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45ed880f543d8a9f489841e0cb0a571') in 0.083592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Table.prefab
+  artifactKey: Guid(b78702531cc991540bea14f3518027c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Table.prefab using Guid(b78702531cc991540bea14f3518027c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35525c7dc9fac932fa3bbf6313cf289e') in 0.069396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab
+  artifactKey: Guid(5abf20f0457997348bd80242fe916388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Chest Iron.prefab using Guid(5abf20f0457997348bd80242fe916388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aef02f00aed80c9f983cf1b0c4d1d20') in 0.103857 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spear.prefab
+  artifactKey: Guid(b5866d78fe6dce549a3dcd007f7eaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Spear.prefab using Guid(b5866d78fe6dce549a3dcd007f7eaca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3f116e526106973ca54adfff550203') in 0.091551 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - White Bottle.prefab
+  artifactKey: Guid(af37d6137b6748f4dbfe059a86aad627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - White Bottle.prefab using Guid(af37d6137b6748f4dbfe059a86aad627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0b1418ab2d04d6782fc4b730a59288') in 0.060957 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.003085 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 02.prefab
+  artifactKey: Guid(c3b86686583e114479cc11b139a8a401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 02.prefab using Guid(c3b86686583e114479cc11b139a8a401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf1e5fb74204a38801ffaccfc8e3156') in 0.060040 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 03.prefab
+  artifactKey: Guid(de570bfbf1a49ba4c9575930f7db6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bush 03.prefab using Guid(de570bfbf1a49ba4c9575930f7db6bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d0abe63e6ada82f1ff50b7c5250afb') in 0.078933 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform Large 02.prefab
+  artifactKey: Guid(5a4d983acd5452743930759213bf8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform Large 02.prefab using Guid(5a4d983acd5452743930759213bf8190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b300259d182ceeafae607be00585694') in 0.049626 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab
+  artifactKey: Guid(49437f4ad0b44f5438b6216b787c82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Slope Platform 01.prefab using Guid(49437f4ad0b44f5438b6216b787c82c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8077667b398326a8961a65029a824f14') in 0.063674 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 02.prefab
+  artifactKey: Guid(2c844ecc42c736944ac3d66f130ed6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Flower 02.prefab using Guid(2c844ecc42c736944ac3d66f130ed6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9741e8935472cbf11b71b674280e28') in 0.063437 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence B.prefab
+  artifactKey: Guid(366bd147d3b568843ab9463d10b7fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fence B.prefab using Guid(366bd147d3b568843ab9463d10b7fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646813885fd395479d4aa10d0173330') in 0.041568 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab
+  artifactKey: Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Banner.prefab using Guid(5fd9ed34f1f755643b41c4b41d7077e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047f60fa30e7c274a05ec5b8a1f90ac0') in 0.053021 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side R.prefab
+  artifactKey: Guid(187b2acbaee972945b4b4fd0d2575724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side R.prefab using Guid(187b2acbaee972945b4b4fd0d2575724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd7fed530f7eb00d2bcc0a27889bd43') in 0.050186 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 02.prefab
+  artifactKey: Guid(282d10bd840f2244d993130a17f23515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Pot 02.prefab using Guid(282d10bd840f2244d993130a17f23515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82e2257cb31be5c2eb3a0897877fc17') in 0.054461 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 04.prefab
+  artifactKey: Guid(e25962a23b0ae06459d988ce85f4476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 04.prefab using Guid(e25962a23b0ae06459d988ce85f4476e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f0dc117da24d6e2c739c6b73c856cb') in 0.047142 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 02.prefab
+  artifactKey: Guid(d5f7066e247357149b9a778fcd53e819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 02.prefab using Guid(d5f7066e247357149b9a778fcd53e819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cf5127963efc173e82eda838b0bb13') in 0.039697 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X64.prefab
+  artifactKey: Guid(851fb730285011e47b696310dadf3ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X64.prefab using Guid(851fb730285011e47b696310dadf3ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa95aed981391dafa23e2f04d6b6e9c') in 0.073711 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 02.prefab
+  artifactKey: Guid(b076c268235cb7348a5d9a036ec254c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Rock 02.prefab using Guid(b076c268235cb7348a5d9a036ec254c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cda1b42daa1e2c63d63843948ba5c94') in 0.436653 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 01.prefab
+  artifactKey: Guid(c223d1574bec3184c97d31eaf1406178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gunny Bag 01.prefab using Guid(c223d1574bec3184c97d31eaf1406178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fabfca651c943699bda16633294862') in 0.120098 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X3.prefab
+  artifactKey: Guid(8f0b414806fcbda47b9f242883104bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 02 X3.prefab using Guid(8f0b414806fcbda47b9f242883104bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d8f53c5d2fbafefcb78aa74f4b2519') in 0.071827 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X1.prefab
+  artifactKey: Guid(faa8413b1d9e4cd48ab117de84514e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Platform 01 R X1.prefab using Guid(faa8413b1d9e4cd48ab117de84514e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aae67a71cbc22e32e5ce289b9e2926c') in 0.073995 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 05.prefab
+  artifactKey: Guid(0cde5280cb0df5240bf5cc2866248e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wheat 05.prefab using Guid(0cde5280cb0df5240bf5cc2866248e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967547c6d0f62455e2ed4d4a188ad215') in 0.059244 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wooden Bridge X6.prefab
+  artifactKey: Guid(d9997400142b1f14281284870012ac00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Wooden Bridge X6.prefab using Guid(d9997400142b1f14281284870012ac00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0df4cc7ac0a588dccbdc5dea61575a') in 0.072895 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab
+  artifactKey: Guid(ab2f44b99adf358449c83b74c274b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 03.prefab using Guid(ab2f44b99adf358449c83b74c274b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b251dc697a0ae42d6254bbfcbba69d') in 0.071965 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 04.prefab
+  artifactKey: Guid(5105ccaacad8d714b94dfb93084fa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Gravestone 04.prefab using Guid(5105ccaacad8d714b94dfb93084fa936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b5a9d6217c9522eacd9e2c02c710bb') in 0.075731 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X40.prefab
+  artifactKey: Guid(19c814d7a6d59b74686e74ddb900f806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Obstacle Platform X40.prefab using Guid(19c814d7a6d59b74686e74ddb900f806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1241afdac8607b1b79c8bb0f93cd0bd4') in 0.118755 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab
+  artifactKey: Guid(56e2a525e0fbd93419c9b313c362934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Fire Bowl.prefab using Guid(56e2a525e0fbd93419c9b313c362934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87b0542ff56e2aeacf7f6a85fb15655') in 0.125979 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 01.prefab
+  artifactKey: Guid(7903d081236f2304396572efb80b5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Tree 01.prefab using Guid(7903d081236f2304396572efb80b5f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510e08106859a7fd3ee9199958a6bb02') in 0.092339 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.004988 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Elevator.prefab
+  artifactKey: Guid(4c6f7f680d35ecb45bd66603fd0f3516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Elevator.prefab using Guid(4c6f7f680d35ecb45bd66603fd0f3516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47309a1ae737d8b0d0e88a641b03b54c') in 0.111270 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 01.prefab
+  artifactKey: Guid(295bb10ead83a4d44b8a1398a7f16c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Sunflower 01.prefab using Guid(295bb10ead83a4d44b8a1398a7f16c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba966f2f94fe635e3ceb802ba1fa75f6') in 0.099526 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread 01.prefab
+  artifactKey: Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Bread 01.prefab using Guid(5b863081ef08aeb42abb2f87baf72b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d413b29abda0bc3aaaa2d612ef4d10') in 0.060186 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab
+  artifactKey: Guid(e0868e2099f22704cb8f4781f4dffe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Barricade.prefab using Guid(e0868e2099f22704cb8f4781f4dffe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569d09a1373f70c3ad45973917dc5ae8') in 0.065561 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 09.prefab
+  artifactKey: Guid(0cadafc44435d2649b8aa171d49f61d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Grass 09.prefab using Guid(0cadafc44435d2649b8aa171d49f61d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa604cce2b8e813a81f788834cfd6a00') in 0.057406 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X32.prefab
+  artifactKey: Guid(16a652d6d18817e4e8c0a8a7fd59d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Stairs X32.prefab using Guid(16a652d6d18817e4e8c0a8a7fd59d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8762e3b619156bf653e2f5f5b3d1a520') in 0.082042 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side L.prefab
+  artifactKey: Guid(3373af298f123a849a61f9aefe9ec4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Prefab/PF Village Props - Ladder 01 Side L.prefab using Guid(3373af298f123a849a61f9aefe9ec4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eecdcd984dc98d8f070937dbfd13e76') in 0.060199 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
