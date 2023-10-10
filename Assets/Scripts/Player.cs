@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -14,9 +15,6 @@ public class Player : MonoBehaviour
 
     public bool isAllowed = false;
 
-    public GameObject PowerUP;
-    PU puScript;
-
     Animator animator;
 
 
@@ -25,7 +23,6 @@ public class Player : MonoBehaviour
     {
         //Get Rigidbody in Inspector
         rb = GetComponent<Rigidbody2D>();
-        puScript = PowerUP.GetComponent<PU>();
         animator = GetComponent<Animator>();
     }
 
@@ -76,10 +73,6 @@ public class Player : MonoBehaviour
         if (player.tag == "Ground")
         {
             isAllowed = true;
-        }
-        else if (player.tag == "PU")
-        {
-            puScript.DestroyPU();
         }
     }
 
