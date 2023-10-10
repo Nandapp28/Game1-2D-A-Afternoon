@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -18,9 +19,6 @@ public class Player : MonoBehaviour
     public bool isAllowed = true;
 >>>>>>> Stashed changes
 
-    public GameObject PowerUP;
-    PU puScript;
-
     Animator animator;
 
 
@@ -28,8 +26,12 @@ public class Player : MonoBehaviour
     void Start()
     {
         //Get Rigidbody in Inspector
+<<<<<<< Updated upstream
         rb = GetComponent<Rigidbody>();
         puScript = PowerUP.GetComponent<PU>();
+=======
+        rb = GetComponent<Rigidbody2D>();
+>>>>>>> Stashed changes
         animator = GetComponent<Animator>();
     }
 
@@ -85,9 +87,10 @@ public class Player : MonoBehaviour
         {
             isAllowed = true;
         }
-        else if (player.tag == "PU")
+
+        if (player.tag == "Enemy")
         {
-            puScript.DestroyPU();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 

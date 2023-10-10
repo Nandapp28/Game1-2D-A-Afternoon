@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PU : MonoBehaviour
 {
+    Coin coinScript;
+    [SerializeField] private GameObject coin;
     // Start is called before the first frame update
     void Start()
     {
-        
+        coinScript = coin.GetComponent<Coin>();
     }
 
     // Update is called once per frame
@@ -16,9 +18,12 @@ public class PU : MonoBehaviour
         
     }
 
-    public void DestroyPU()
+    private void OnTriggerEnter2D(Collider2D coin)
     {
-        Destroy(this.gameObject);
-        print("Destroy PU");
+        if (coin.tag == "Player")
+        {
+            coinScript.AddScore();
+            Destroy(this.gameObject);
+        }
     }
 }

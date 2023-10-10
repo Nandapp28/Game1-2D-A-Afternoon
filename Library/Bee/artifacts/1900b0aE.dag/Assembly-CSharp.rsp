@@ -362,6 +362,12 @@
 =======
 "Assets/Checkpoint.cs"
 "Assets/GameManager.cs"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+"Assets/Scripts/Checkpoint.cs"
+"Assets/Scripts/Coin.cs"
+"Assets/Scripts/Enemy.cs"
 >>>>>>> Stashed changes
 "Assets/Scripts/FallTrigger.cs"
 "Assets/Scripts/Ground.cs"

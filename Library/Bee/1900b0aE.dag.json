@@ -21046,7 +21046,11 @@
       "PayloadLength": 33047,
 =======
       "PayloadOffset": 1495509,
+<<<<<<< Updated upstream
       "PayloadLength": 32837,
+>>>>>>> Stashed changes
+=======
+      "PayloadLength": 32898,
 >>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
@@ -21060,9 +21064,13 @@
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "PayloadOffset": 1504787,
 =======
       "PayloadOffset": 1528433,
+>>>>>>> Stashed changes
+=======
+      "PayloadOffset": 1528494,
 >>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
@@ -21313,6 +21321,13 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+<<<<<<< Updated upstream
+=======
+        "Assets/GameManager.cs",
+        "Assets/Scripts/Checkpoint.cs",
+        "Assets/Scripts/Coin.cs",
+        "Assets/Scripts/Enemy.cs",
+>>>>>>> Stashed changes
         "Assets/Scripts/FallTrigger.cs",
         "Assets/Scripts/Ground.cs",
         "Assets/Scripts/Player.cs",
@@ -21684,7 +21699,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1528529,
+=======
+      "PayloadOffset": 1528590,
+>>>>>>> Stashed changes
       "PayloadLength": 9450,
 >>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
