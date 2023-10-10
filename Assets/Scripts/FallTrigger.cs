@@ -16,9 +16,10 @@ public class FallTrigger : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.tag == "Player")
+        if (collision.tag == "Player")
         {
             SceneManager.LoadScene("Gameplay");
         }

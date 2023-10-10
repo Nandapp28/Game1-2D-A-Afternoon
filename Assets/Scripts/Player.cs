@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     public GameObject PowerUP;
     PU puScript;
 
+    Animator animator;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +26,7 @@ public class Player : MonoBehaviour
         //Get Rigidbody in Inspector
         rb = GetComponent<Rigidbody2D>();
         puScript = PowerUP.GetComponent<PU>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,6 +34,8 @@ public class Player : MonoBehaviour
     {
         MovingPlayer();
         JumpingPlayer();
+        Facing();
+        AnimationPlayer();
     }
 
     void MovingPlayer()
@@ -46,6 +51,24 @@ public class Player : MonoBehaviour
         {
             rb.velocity = new Vector2(0, 1 * jumpPower);
         }
+    }
+
+    void Facing()
+    {
+        if (hAxis > 0)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else if (hAxis < 0)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
+    void AnimationPlayer()
+    {
+        animator.SetFloat("Run", Mathf.Abs(hAxis));
+        animator.SetBool("Jump", isAllowed == true);
     }
 
     private void OnTriggerEnter2D(Collider2D player)
