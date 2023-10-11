@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -17,6 +18,13 @@ public class Player : MonoBehaviour
 
     Animator animator;
 
+    [SerializeField] private float maxHealth = 100f;
+    [SerializeField] private float healthPlayer;
+    [SerializeField] Slider healthSlider;
+
+    [SerializeField] AudioClip[] audioGame;
+    AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +32,9 @@ public class Player : MonoBehaviour
         //Get Rigidbody in Inspector
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
+
+        healthPlayer = 100f;
     }
 
     // Update is called once per frame
@@ -33,6 +44,13 @@ public class Player : MonoBehaviour
         JumpingPlayer();
         Facing();
         AnimationPlayer();
+
+        healthSlider.value = healthPlayer / maxHealth;
+    }
+
+    public void dmgPlayer()
+    {
+        healthPlayer = healthPlayer - 20f;
     }
 
     void MovingPlayer()
@@ -47,7 +65,21 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isAllowed == true)
         {
             rb.velocity = new Vector2(0, 1 * jumpPower);
+            audioSource.clip = audioGame[0];
+            audioSource.Play();
         }
+    }
+
+    public void EnemyColl()
+    {
+        audioSource.clip = audioGame[1];
+        audioSource.Play();
+    }
+
+    public void CoinColl()
+    {
+        audioSource.clip = audioGame[2];
+        audioSource.Play();
     }
 
     void Facing()

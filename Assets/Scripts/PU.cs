@@ -6,10 +6,14 @@ public class PU : MonoBehaviour
 {
     [SerializeField] GameObject coinText;
     CoinText coinScript;
+
+    Player player;
+    [SerializeField] GameObject playerOBJ;
     // Start is called before the first frame update
     void Start()
     {
         coinScript = coinText.GetComponent<CoinText>();
+        player = playerOBJ.GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -22,8 +26,9 @@ public class PU : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Destroy(this.gameObject);
+            player.CoinColl();
             coinScript.AddScore();
+            Destroy(this.gameObject);
         }
     }
 }

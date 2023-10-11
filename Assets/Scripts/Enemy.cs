@@ -7,12 +7,17 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] Transform player;
 
-    [SerializeField] GameObject lives;
-    Lives liveScript;
+    /*[SerializeField] GameObject lives;
+    Lives liveScript;*/
+
+    Player playerScript;
+    [SerializeField] GameObject playerObj;
     // Start is called before the first frame update
     void Start()
     {
-        liveScript = lives.GetComponent<Lives>();
+        //liveScript = lives.GetComponent<Lives>();
+
+        playerScript = playerObj.GetComponent<Player>();
     }
 
     // Update is called once per frame
@@ -33,7 +38,10 @@ public class Enemy : MonoBehaviour
         if (enemy.tag == "Player")
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            liveScript.healthBar--;
+            //liveScript.healthBar--;
+
+            playerScript.EnemyColl();
+            playerScript.dmgPlayer();
             Destroy(this.gameObject);
         }
     }
