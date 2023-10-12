@@ -365,6 +365,7 @@
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PU.cs"
 "Assets/Scripts/Spawner.cs"
+"Assets/SoundManager.cs"
 -langversion:9.0
 
 /deterministic

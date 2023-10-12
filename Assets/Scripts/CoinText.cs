@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+//using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
 
 public class CoinText : MonoBehaviour
 {
@@ -18,10 +20,12 @@ public class CoinText : MonoBehaviour
         coinText = GetComponent<TextMeshProUGUI>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (coinTotal >= 3)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     public void AddScore()

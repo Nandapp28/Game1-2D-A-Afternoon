@@ -17,15 +17,6 @@ public class PU : MonoBehaviour
         player = playerOBJ.GetComponent<Player>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if (coinScript.coinTotal >= 2)
-        {
-            SceneManager.LoadScene(0);
-        }
-    }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
