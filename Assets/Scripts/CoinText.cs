@@ -6,7 +6,7 @@ using TMPro;
 
 public class CoinText : MonoBehaviour
 {
-    [SerializeField] int coinTotal = 0;
+    public int coinTotal = 0;
     TextMeshProUGUI coinText;
 
     [SerializeField] GameObject lives;

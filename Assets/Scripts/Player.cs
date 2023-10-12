@@ -46,11 +46,16 @@ public class Player : MonoBehaviour
         AnimationPlayer();
 
         healthSlider.value = healthPlayer / maxHealth;
+
+        /*if (healthPlayer >= 0 )
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }*/
     }
 
     public void dmgPlayer()
     {
-        healthPlayer = healthPlayer - 20f;
+        healthPlayer = healthPlayer - 40f;
     }
 
     void MovingPlayer()
